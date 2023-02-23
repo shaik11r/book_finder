@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.bookfinder{
+  text-align: center;
+  padding:100px 0 40px 0;
+  border: 1px solid black;
+  color: purple;
+  background-color:black;
+  letter-spacing: 2.5px;
+  font-size: large;
+  border-radius:1rem;
+  box-shadow: 0 5px 15px black;
+}
+
+.search-form{
+  text-align: center;
+  margin-top:2rem;
+  width: 100vw;
+}
+.search-form h2{
+  letter-spacing: 0.25rem;
+}
+.form-input{
+  width:100%;
+  border:2px solid black;
+  max-width: 600px;
+  letter-spacing: 0.25rem;
+  padding: 1rem;
+  font-size:20px;
+  font-weight:500 ;
+  color:cyan;
+  border-radius: 1rem;
+  margin-top:2rem;
+  margin-right: 1.5rem;
+}
+.button-v{
+  border-radius: 10px;
+  padding: 1.2rem;
+  text-decoration: none;
+  background-color:black;
+  cursor: pointer;
+  outline: none;
+}
+.books{
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.book{
+  border:1px solid rgb(157, 203, 20);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.381);
+  border-radius: 5px;
+  object-fit: cover;
+  width: 220px;
+  margin:40px;
+  text-decoration: none;
+  text-align:center;
+  padding: 2rem 2rem;
+  color:white
+}
+.book img{
+  width: 130px;
+  margin-bottom: 0.75rem;
+  object-fit: cover;
+}
